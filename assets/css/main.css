@@ -27,6 +27,10 @@ section, summary, time, mark, audio, video {
 	font-family: Futura;
 }
 
+h3 {
+	text-transform: uppercase;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -6862,7 +6866,7 @@ input, select, textarea {
 			}
 
 		.gallery.style2:hover > .forward, .gallery.style2:hover > .backward {
-			opacity: 1;
+			opacity: .5;
 		}
 
 		.gallery.style2 > .forward {
