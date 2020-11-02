@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: Futura;
+	font-family: "Century Gothic", Futura, sans-serif;
 }
 
 h3 {
