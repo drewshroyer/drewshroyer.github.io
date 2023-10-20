@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+@import url("https://fonts.googleapis.com/css?family=Arimo:300,300i,400,400i,500,600,700,800");
 
 /*
 	Story by HTML5 UP
@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: "Century Gothic", Futura, sans-serif;
+	font-family: 'Arimo', sans-serif;
 }
 
 h3 {
