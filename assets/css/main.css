@@ -1617,6 +1617,12 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			#external-links-section {
+				display:flex;
+				flex-direction: column;
+				margin: 3rem;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
