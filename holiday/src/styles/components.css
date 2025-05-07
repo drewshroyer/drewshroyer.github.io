@@ -1,0 +1,32 @@
+
+/* Button Variations */
+.btn-holiday {
+  @apply bg-[#1f479c] text-white px-4 py-2 rounded-lg hover:bg-[#15366f] transition-colors;
+}
+
+.btn-outline-holiday {
+  @apply bg-transparent text-[#1f479c] border border-[#1f479c] px-4 py-2 rounded-lg hover:bg-[#1f479c] hover:text-white transition-colors;
+}
+
+/* Card Variations */
+.card-holiday {
+  @apply bg-white rounded-3xl border border-holiday-border shadow-sm overflow-hidden;
+}
+
+.card-hover {
+  @apply hover:shadow-md transition-shadow duration-200;
+}
+
+/* Form Elements */
+.input-holiday {
+  @apply rounded-lg border-holiday-border px-4 py-2 focus:ring-2 focus:ring-[#1f479c] focus:border-transparent outline-none;
+}
+
+/* Layout Utilities */
+.container-holiday {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section-padding {
+  @apply py-8 md:py-12;
+}

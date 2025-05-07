@@ -1,0 +1,51 @@
+
+/* Light theme variables */
+.light-theme {
+  --background: #ffffff;
+  --foreground: #111827;
+  
+  --card-bg: #ffffff;
+  --card-border: #e5e7eb;
+  
+  --button-primary: #1f479c;
+  --button-primary-hover: #15366f;
+  --button-primary-text: #ffffff;
+  
+  --button-secondary: #f2f2f2;
+  --button-secondary-hover: #e5e5e5;
+  --button-secondary-text: #222222;
+  
+  --input-border: #e0e0e0;
+  --input-focus: #1f479c;
+}
+
+/* Dark theme variables */
+.dark-theme {
+  --background: #1f2937;
+  --foreground: #f9fafb;
+  
+  --card-bg: #374151;
+  --card-border: #4b5563;
+  
+  --button-primary: #1f479c;
+  --button-primary-hover: #15366f;
+  --button-primary-text: #ffffff;
+  
+  --button-secondary: #4b5563;
+  --button-secondary-hover: #6b7280;
+  --button-secondary-text: #f9fafb;
+  
+  --input-border: #4b5563;
+  --input-focus: #1f479c;
+}
+
+/* Apply theme styles to elements */
+body.light-theme {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+body.dark-theme {
+  background-color: var(--background);
+  color: var(--foreground);
+}
